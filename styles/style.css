@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.controles {
+    background-color: #eee;
+    border: 2px solid #000;
+    border-radius: 5px;
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.controle {
+    background-color: #fff;
+    border: 2px solid #888;
+    border-radius: 5px;
+
+    padding: 5px;
+    width: 100%;
+    margin: 5px;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    background-color: rgb(52, 52, 255);
+    border-radius: 10px;
+    border: none;
+
+    padding: 5px;
+    height: 40px;
+    width: 200px;
+
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+label {
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: rgb(98, 98, 255);
+}
+
+input[type='number'], #num_objetos {
+    border: 3px solid #454545;
+    border-radius: 15px;
+
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 150px;
+    margin: 10px;
+    height: 40px;
+
+    font-size: 1.3em;
+    font-weight: bolder;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.palco {
+    background-color: #efefef;
+    border-radius: 5px;
+    border: 2px solid #000;
+
+    min-height: 100vh;
+    min-height: fill-available;
+    min-height: -webkit-fill-available;
+    width: 100%;
+
+    display: flex;
+
+    position: absolute;
+
+    overflow: hidden;
+}
+
+.bola {
+    border-radius: 100px;
+
+    position: absolute;
+}
