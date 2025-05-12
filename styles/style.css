@@ -8,12 +8,17 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+body {
+    padding: 20px;
+}
+
 .controles {
     background-color: #eee;
-    border: 2px solid #000;
+    border: 3px solid #646464;
     border-radius: 5px;
 
     width: 100%;
+    margin-bottom: 10px;
 
     display: flex;
     align-items: center;
@@ -23,7 +28,7 @@
 .controle {
     background-color: #fff;
     border: 2px solid #888;
-    border-radius: 5px;
+    border-radius: 15px;
 
     padding: 5px;
     width: 100%;
@@ -79,17 +84,20 @@ input[type='number'], #num_objetos {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    text-align: center;
 }
 
 .palco {
     background-color: #efefef;
     border-radius: 5px;
-    border: 2px solid #000;
+    border: 2px solid #a0a0a0;
 
+    margin-bottom: 15px;
     min-height: 100vh;
     min-height: fill-available;
     min-height: -webkit-fill-available;
-    width: 100%;
+    width: calc(100% - 40px);
 
     display: flex;
 
