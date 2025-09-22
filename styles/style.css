@@ -14,9 +14,9 @@ body {
 
 .controles {
     background-color: #eee;
-    border: 3px solid #646464;
-    border-radius: 5px;
+    border-radius: 16px;
 
+    padding: 24px;
     width: 100%;
     margin-bottom: 10px;
 
@@ -27,8 +27,7 @@ body {
 
 .controle {
     background-color: #fff;
-    border: 2px solid #888;
-    border-radius: 15px;
+    border-radius: 16px;
 
     padding: 5px;
     width: 100%;
@@ -46,7 +45,7 @@ button {
     border-radius: 10px;
     border: none;
 
-    padding: 5px;
+    padding: 8px;
     height: 40px;
     width: 200px;
 
@@ -69,12 +68,9 @@ button:hover {
 }
 
 input[type='number'], #num_objetos {
-    border: 3px solid #454545;
-    border-radius: 15px;
-
     margin-bottom: 5px;
     padding: 5px;
-    width: 150px;
+    width: 300px;
     margin: 10px;
     height: 40px;
 
@@ -89,9 +85,8 @@ input[type='number'], #num_objetos {
 }
 
 .palco {
-    background-color: #efefef;
+    background-color: #eaeaea;
     border-radius: 5px;
-    border: 2px solid #a0a0a0;
 
     margin-bottom: 15px;
     min-height: 100vh;
